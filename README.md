@@ -19,6 +19,8 @@ Installation and running instructions:
 The only file needed to replicate my project is the .ipynb colab file, everything is done there. (or at least i wasn't able to run into an error when trying to)
 At first, it is important to connect to a T4 gpu. (I tried using my own system)
 After opening the file, the project can be seen separated to steps. You just have to follow them, and at the end the model is done. Every step is labeled.
+It is really important to do every step, excludig  optional ones. After the model is done, comes the practice. In the project you can choose a video (either download one on find one online and paste in its URL) and the model will label it first, creating a vehicle_detections.txt and a output_with_labels.mp4 file.
+Then in the second part, the code tries to detect vehicles that have stopped. a another set of files are created here, named stopped_vehicles.txt and output_with_stopped_vehicles.mp4. You can download these files (video files recommended)
 You can install the dataset and the pretrained model, links are provided under the sources.
 
 Sources used:
@@ -35,5 +37,8 @@ Files that were used:
 
 pythonAIhw.ipynb : file that stores the code written in google colab enviroment, This is where all of the source code can be found
 The link for the google colab: https://colab.research.google.com/drive/10Pf3-FqIj1Qf2I0m6M1BGum96YyrOA9V?usp=sharing
+This link is for a google drive that contains videos regarding the google colab file.
+https://drive.google.com/drive/u/3/folders/1R9AihHURIV4v2njU7BQRH6ved6Ut6RS6
+This drive contains the demo video as well.
 
 
