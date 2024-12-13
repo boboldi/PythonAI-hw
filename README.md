@@ -12,13 +12,13 @@ I decided to use the ua-detrac dataset. I was looking for a dataset, that includ
 
 The AI model:
 
-The model used in the project is the ultralytics yolov11n. This model is the newest at the time of making the project, and is famous among the models used for object detection. I went with the 'n' (nano) model to make the training, validating processes faster, because it seemed like it is going to take a long time (even with the nano model and T4 gpu) to do anything resourceful. 
+The model used in the project is the ultralytics yolov11n. This model is the newest at the time of making the project, and is famous among the models used for object detection. I went with the 'n' (nano) model to make the training, validating processes faster, because it seemed like it is going to take a long time (even with the nano model and T4 gpu) to do anything resourceful. Because of this I had to limit a lof of facrtors when using the model (for example only 1 epoch when training)
 
 Installation and running instructions:
 
 The only file needed to replicate my project is the .ipynb colab file, everything is done there. (or at least i wasn't able to run into an error when trying to)
 At first, it is important to connect to a T4 gpu. (I tried using my own system)
-After opening the file, the project can be seen separated to steps. You just have to follow them, and at the end the model is done.
+After opening the file, the project can be seen separated to steps. You just have to follow them, and at the end the model is done. Every step is labeled.
 You can install the dataset and the pretrained model, links are provided under the sources.
 
 Sources used:
